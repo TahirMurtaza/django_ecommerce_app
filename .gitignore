@@ -1,0 +1,78 @@
+ # Python specific
+*.py[cod]
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.so
+
+# Virtual environment
+env/
+venv/
+ENV/
+.venv/
+env.bak/
+venv.bak/
+
+# Django specific
+*.log
+local_settings.py
+db.sqlite3
+/media
+/staticfiles
+/static/
+*.pot
+*.py[cod]
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# OS generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Testing
+.tox/
+.nox/
+.pytest_cache/
+.coverage
+htmlcov/
+.coverage.*
+
+# Celery beat schedule file
+celerybeat-schedule
+
+# MyPy
+.mypy_cache/
+
+# PyInstaller
+*.manifest
+*.spec
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+
+# pyenv
+.python-version
+
+# Local environment settings
+.env
+.env.*
+
+# Backup files
+*.bak
+*.swp
+*.tmp
+
+
+# project files to exclude
+nest-frontend/
+ 
